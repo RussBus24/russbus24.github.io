@@ -36,7 +36,7 @@
 	border: 1px solid #000000;
 	color: #FFFFFF;
 	text-align: center;
-	height: 325px;
+	height: 340px;
 }
 
 .row-portfolio {
@@ -73,6 +73,49 @@ h4 {
 	padding: 15px;
 }
 
+.project {
+	display: flex;
+	flex-direction: column;
+}
+
+.project_name {
+	flex-grow: 1;
+}
+
+.project_tech {
+	flex-grow: 1;
+}
+
 li > a {
 
+}
+
+.card{
+	position: relative;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	height:100%;
+	margin-bottom: 5px;
+}
+
+.card a{
+	text-decoration: none;
+	color:black;
+
+}
+
+.card_content h3{
+	margin-top:0;
+	padding: 2px;
+	background: linear-gradient(135deg, #DEE4ED, #CDD3DC);
+}
+
+.card:hover {
+	box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+	width:90%;
+	height:220px;
+	border-radius: 5px 5px 0 0;
 }
