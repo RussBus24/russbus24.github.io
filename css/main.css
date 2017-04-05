@@ -14,7 +14,7 @@
 .jumbotron {
 	background-image: url('../middle-section.jpg');
 	background-size: cover;
-	height: 50em;
+	height: 47em;
 }
 
 .col-md-offset-3 {
@@ -79,7 +79,7 @@ footer {
 }
 
 .middle-section h1 {
-	animation-delay: 1s;
+	animation-delay: .5s;
 }
 
 .middle-section h3 {
