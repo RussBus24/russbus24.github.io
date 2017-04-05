@@ -78,6 +78,18 @@ footer {
 	margin: 10px;
 }
 
+.middle-section h1 {
+	animation-delay: 1s;
+}
+
+.middle-section h3 {
+	animation-delay: 2s;
+}
+
+.middle-section p {
+	animation-delay: 2s;
+}
+
 h4 {
 	padding: 15px;
 }
