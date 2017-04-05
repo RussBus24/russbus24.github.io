@@ -34,9 +34,14 @@
 .col-md-3 {
 	background-color: #757C87;
 	border: 1px solid #000000;
+	border-radius: 10px;
+	box-shadow: 3px 3px #000000;
 	color: #FFFFFF;
 	text-align: center;
 	height: 340px;
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 15px;
 }
 
 .col-md-6 {
@@ -99,6 +104,7 @@ li > a {
 	box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
 	border-radius: 5px;
 	height:100%;
+	width: 95%;
 	margin-bottom: 5px;
 }
 
