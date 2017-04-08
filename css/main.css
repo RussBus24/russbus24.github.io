@@ -11,6 +11,12 @@
 	color: #FFFFFF;
 }
 
+.navbar-makeup {
+	background-color: #ffffff;
+	border-color: #000000;
+	border-style: groove;
+}
+
 .jumbotron {
 	background-image: url('../middle-section.jpg');
 	background-size: cover;
@@ -140,4 +146,8 @@ li > a {
 	width:90%;
 	height:220px;
 	border-radius: 5px 5px 0 0;
+}
+
+.card-backdrop {
+	background-color: #E0E2E5;
 }
