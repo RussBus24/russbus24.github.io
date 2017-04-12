@@ -65,11 +65,10 @@
 }
 
 footer {
-	height: 100px;
+	height: 130px;
 	background-color: #000000;
 	color: #FFFFFF;
 	text-align: center;
-	height: 115px;
 }
 
 .image {
@@ -149,4 +148,8 @@ li > a {
 
 .card-backdrop {
 	background-color: #E0E2E5;
+}
+
+.icon-space {
+	margin-right: 10px;
 }
