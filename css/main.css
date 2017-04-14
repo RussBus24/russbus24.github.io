@@ -153,3 +153,35 @@ li > a {
 .icon-space {
 	margin-right: 10px;
 }
+
+.facebook:hover {
+	color: #ffffff;
+}
+
+.twitter:hover {
+	color: #0000ff;
+}
+
+.github:hover {
+	color: #008000;
+}
+
+.linkedin:hover {
+	color: #0000ff;
+}
+
+.facebook:link {
+	color: white;
+}
+
+.twitter:link {
+	color: #ffffff;
+}
+
+.github:link {
+	color: #ffffff;
+}
+
+.linkedin:link {
+	color: #ffffff;
+}
