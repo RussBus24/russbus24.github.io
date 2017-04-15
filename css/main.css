@@ -154,6 +154,22 @@ li > a {
 	margin-right: 10px;
 }
 
+.facebook {
+	color: white;
+}
+
+.twitter {
+	color: #0000ff;
+}
+
+.github {
+	color: #008000;
+}
+
+.linkedin {
+	color: #0000ff;
+}
+
 .facebook:hover {
 	color: #ffffff;
 }
@@ -170,18 +186,3 @@ li > a {
 	color: #0000ff;
 }
 
-.facebook:link {
-	color: white;
-}
-
-.twitter:link {
-	color: #ffffff;
-}
-
-.github:link {
-	color: #ffffff;
-}
-
-.linkedin:link {
-	color: #ffffff;
-}
