@@ -155,11 +155,11 @@ li > a {
 }
 
 .facebook {
-	color: white;
+	color: #3B5998;
 }
 
 .twitter {
-	color: #0000ff;
+	color: #55ACEE;
 }
 
 .github {
@@ -167,15 +167,15 @@ li > a {
 }
 
 .linkedin {
-	color: #0000ff;
+	color: #007BB5;
 }
 
 .facebook:hover {
-	color: #ffffff;
+	color: #3B5998;
 }
 
 .twitter:hover {
-	color: #0000ff;
+	color: #55ACEE;
 }
 
 .github:hover {
@@ -183,6 +183,6 @@ li > a {
 }
 
 .linkedin:hover {
-	color: #0000ff;
+	color: #007BB5;
 }
 
