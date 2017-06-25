@@ -1,145 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=0.5">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-	<link rel="stylesheet" type="text/css" href="https://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slideshow.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css" />
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/app.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="js/animate.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Russell Henry Portfolio</title>
 </head>
 <body>
-	<header> 
-		<nav class="navbar navbar-default navbar-fixed-top navbar-makeup" role="navigation">
-			<div class="container-fluid"> 
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">Russell Henry</a>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="nav-spacing"><a href="#aboutme">About Me</a></li>
-						<li class="nav-spacing"><a href="#portfolio">Portfolio</a></li>
-						<li class="nav-spacing"><a href="Resume.pdf" target="_blank">Resume</a></li>
-						<li class="nav-spacing"><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
+<header>
+	<nav class="navbar navbar-fixed-top navbar-makeup" role="navigation">
+		<div class="container-fluid navbar-makeup">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar icon-bar-format"></span>
+					<span class="icon-bar icon-bar-format"></span>
+					<span class="icon-bar icon-bar-format"></span>
+				</button>
+				<a class="navbar-brand navbrand-text brand-text" id="home" href="#home">Russell Henry</a>
 			</div>
-		</nav>
-		<section class="middle-section">
-			<a name="aboutme"></a>
-			<div class="container-fluid">
-				<div class="jumbotron">
-					<div class="container-fluid">
-						<div class="col-md-6 col-md-offset-3">
-							<h1 class="animated fadeInDown">RussBus</h1>
-							<p class="animated fadeIn">Aspiring Full-Stack Web Developer in the Washington DC metro area and recent graduate of
-							the Thinkful Web Development Bootcamp program. I enjoy coding and being able to creatively
-							build web pages across different frameworks & languages. In my free time, I enjoy sports,
-							reading, and history.</p>
-							<p class="animated fadeIn">Skills/Technologies include:</p>
-							<p class="animated fadeIn">HTML, CSS, JavaScript, jQuery, AJAX, MongoDB, Node.js, React.js, Redux, Express, Mongoose & Bootstrap</p>
-						</div>
-					</div>
-				</div>
+			<div class="collapse navbar-collapse navbar-format" id="navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="nav-spacing"><a class="nav-text" id="aboutme" href="#aboutme">ABOUT ME</a></li>
+					<li class="nav-spacing"><a class="nav-text" id="portfolio" href="#portfolio">PORTFOLIO</a></li>
+					<li class="nav-spacing"><a class="nav-text" href="Resume.pdf" target="_blank">RESUME</a></li>
+					<li class="nav-spacing"><a class="nav-text" id="contact" href="#contact">CONTACT</a></li>
+				</ul>
 			</div>
-		</section>
-		<section class="portfolio">
-			<a name="portfolio"></a>
-			<div class="container-fluid">
-				<h1>Portfolio Works</h1>
-				<div class="row">
-					<div class="row-height">
-						<div class="col-md-3 col-sm-6 col-md-offset-3 col-sm-offset-3 portfolio_col card-backdrop">
-							<div class="card">
-								<a href="https://russbus24.github.io/grocery-store" target="_blank">
-									<figure class="thumbnail_img">
-										<img src="grocery-list-snapshot-new.jpg" alt="">
-									</figure>
-									<div class="card_content">
-										<h3>Shopping List</h3>
-										<div class="card_summary">
-											<p>Skills/Technologies:</p>
-											<p>HTML, CSS, jQuery, JavaScript</p>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-height col-sm-offset-3 col-md-offset-0 col-height col-top portfolio_col card-backdrop">
-							<div class="card">
-								<a href="https://russbus24.github.io/Quiz" target="_blank">
-									<figure class="thumbnail_img">
-										<img src="Quiz-snapshot.jpg">
-									</figure>
-									<div class="card_content">
-										<h3>Quiz</h3>
-										<div class="card_summary">
-											<p>SKills/Technologies:</p>
-											<p>HTML, CSS, jQuery, JavaScript</p>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="row-height">
-						<div class="col-md-3 col-sm-6 col-md-offset-3 col-sm-offset-3 portfolio_col card-backdrop">
-							<div class="card">
-								<a href="https://russbus24.github.io/CapstoneAPI" target="_blank">
-									<figure class="thumbnail_img">
-										<img src="Capstone-snapshot-new.jpg">
-									</figure>
-									<div class="card_content">
-										<h3>Video Game API Hack</h3>
-										<div class="card_summary">
-											<p>Skills/Technologies:</p>
-											<p>HTML, CSS, jQuery, JavaScript, AJAX, API, Bootstrap</p>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-height col-sm-offset-3 col-md-offset-0 col-height col-top portfolio_col card-backdrop">
-							<div class="card">
-								<a href="https://secure-taiga-59845.herokuapp.com/" target="_blank">
-									<figure class="thumbnail_img">
-										<img src="movie-app-new.jpg">
-									</figure>
-									<div class="card_content">
-										<h3>Movie Rating App</h3>
-										<div class="card_summary">
-											<p>Skills/Technologies:</p>
-											<p>HTML, CSS, JavaScript, JSON, API, React.js, React Redux & Router</p>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
+		</div>
+	</nav>
+</header>
+<a name="home"></a>
+<section class="intro">
+	<div class="container-fluid intro-format">
+		<h1>The RussBus</h1>
+		<hr id="hr-intro">
+		<h2>Full-Stack Web Developer</h2>
+		<h1 id="period-divide">...</h1>
+	</div>
+</section>
+<a name="aboutme"></a>
+<section class="aboutme">
+	<div class="container-fluid aboutme-format">
+		<div class="aboutme-format-text">
+			<h1>About Me</h1>
+			<hr id="hr-aboutme">
+			<p>Aspiring Full-Stack Web Developer in the Washington DC metro area and recent graduate of the
+				Thinkful Web Development Bootcamp program. I enjoy coding and being able to creatively build web pages
+				across different frameworks & languages. In my free time, I enjoy sports, reading, and history.</p>
+			<p class="aboutme-text">Skills/Technologies include:</p>
+		</div>
+		<div class="list-container">
+			<div class="list-left">
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>jQuery</li>
+					<li>AJAX</li>
+					<li>Node.js</li>
+				</ul>
 			</div>
-		</section>
-		<footer>
-			<a name="contact"></a>
-			<h4 class="email"><a class="email" href="mailto:rjhenry1014@gmail.com">Email me at: rjhenry1014@gmail.com</a></h4>
-			<p id="icons"><a href="https://www.facebook.com/RussBus24" target="_blank"><i class="fa fa-facebook fa-3x icon-space facebook" aria-hidden="true" title="facebook"></i></a>
-				<a href="https://twitter.com/IamTheRussBus" target="_blank"><i class="fa fa-twitter fa-3x icon-space twitter" aria-hidden="true" title="twitter"></i></a>
-				<a href="https://github.com/RussBus24" target="_blank"><i class="fa fa-github-alt fa-3x icon-space github" aria-hidden="true" title="github"></i></a>
-				<a href="https://www.linkedin.com/in/russell-henry-phr-a479127/" target="_blank"><i class="fa fa-linkedin fa-3x icon-space linkedin" aria-hidden="true" title="linkedin"></i></a></p>
-		</footer>
-	</header>
+			<div class="list-right">
+				<ul>
+					<li>React.js</li>
+					<li>Redux</li>
+					<li>Express</li>
+					<li>MongoDB</li>
+					<li>Mongoose</li>
+					<li>Bootstrap</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<a name="portfolio"></a>
+<section class="portfolio">
+	<div class="container-fluid portfolio-format">
+		<h1>Portfolio</h1>
+		<hr id="hr-portfolio">
+		<div class="slideshow-container">
+			<div class="mySlides slide-fade" style="display: block">
+				<div class="numbertext numbertext-format">1 / 4</div>
+				<a href="http://russbus24.github.io/grocery-store" target="_blank">
+					<img id="slide-format" src="shopping01.jpg"></a>
+				<div class="text">Grocery Shopping App</div>
+			</div>
+			<div class="mySlides slide-fade" style="display: none">
+				<div class="numbertext numbertext-format">2 / 4</div>
+				<a href="http://russbus24.github.io/Quiz" target="_blank">
+					<img id="slide-format" src="Quiz01.jpg"></a>
+				<div class="text">Quiz App</div>
+			</div>
+			<div class="mySlides slide-fade" style="display: none">
+				<div class="numbertext numbertext-format">3 / 4</div>
+				<a href="http://russbus24.github.io/CapstoneAPI" target="_blank">
+					<img id="slide-format" src="database01.jpg"></a>
+				<div class="text" style="color: #000000">Video Game API Hack</div>
+			</div>
+			<div class="mySlides slide-fade" style="display: none">
+				<div class="numbertext numbertext-format" style="color: #000000">4 / 4</div>
+				<a href="https://secure-taiga-59845.herokuapp.com" target="_blank">
+					<img id="slide-format" src="movie01.jpg"></a>
+				<div class="text" style="color: #000000">Movie Rating App</div>
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+		</div>
+	</div>
+</section>
+<a name="contact"></a>
+<section class="contact">
+	<div class="container-fluid contact-format">
+		<div class="contact-format-text">
+			<h1>Contact Me</h1>
+			<hr id="hr-contact">
+			<p id="contact-text">I'd love to hear from you! Feel free to contact me via <a href="mailto:rjhenry1014@gmail.com">email</a>
+				or by any of the social media links below:</p>
+			<p id="icons">
+				<a href="http://www.facebook.com/RussBus24" target="_blank">
+					<i class="fa fa-facebook fa-3x icons-space facebook" aria-hidden="true" title="facebook"></i>
+				</a>
+				<a href="http://www.twitter.com/IamTheRussBus" target="_blank">
+					<i class="fa fa-twitter fa-3x icons-space twitter" aria-hidden="true" title="twitter"></i>
+				</a>
+				<a href="http://github.com/russbus24" target="_blank">
+					<i class="fa fa-github fa-3x icons-space github" aria-hidden="true" title="github"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/russell-henry-phr-a479127/" target="_blank">
+					<i class="fa fa-linkedin fa-3x icon-space linkedin" aria-hidden="true" title="linkedin"></i>
+				</a>
+			</p>
+			<hr id="hr-contact">
+			<p>&copy; 2017 Russell Henry</p>
+			<p>All Rights Reserved</p>
+		</div>
+	</div>
+</section>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
+</script>
 </body>
 </html>
